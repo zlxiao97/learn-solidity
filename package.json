@@ -4,7 +4,8 @@
   "description": "��#\u0000 \u0000l\u0000e\u0000a\u0000r\u0000n\u0000-\u0000s\u0000o\u0000l\u0000i\u0000d\u0000i\u0000t\u0000y\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node scripts/compile.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/zlxiao97/learn-solidity/issues"
   },
-  "homepage": "https://github.com/zlxiao97/learn-solidity#readme"
+  "homepage": "https://github.com/zlxiao97/learn-solidity#readme",
+  "dependencies": {
+    "fs-extra": "^10.0.1",
+    "lodash": "^4.17.21",
+    "solc": "^0.8.12"
+  }
 }
